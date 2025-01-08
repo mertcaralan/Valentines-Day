@@ -1,0 +1,90 @@
+:root{
+    --backgroundColor:#E4B7E5;
+    --textColor:#493366;
+    --btnBackgroundColor:#B288C0;
+    --btnBorderColor:#7E5A9B;
+}
+
+body{
+    font-family: poppins;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6rem;
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#heading{
+    position: absolute;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+#buttons{
+    position: absolute;
+    bottom: 100px;
+}
+
+.button{
+    background-color: var(--btnBackgroundColor);
+    color: var(--textColor);
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px 30px;
+    border: 5px solid var(--btnBorderColor);
+    border-radius: 100px;
+    width: 300px;
+    transition: all 0.1s ease-in-out;
+}
+
+.button:hover{
+    background-color: var(--btnBorderColor);
+    box-shadow: 5px 5px 20px hsl(273, 27%, 30%);
+    color: #e2c5e2;
+}
+
+.button:active{
+    border: 5px solid hsl(273, 27%, 30%);
+    background-color: hsl(273, 27%, 30%);
+    box-shadow: 5px 5px 20px hsl(273, 27%, 20%);
+}
+
+#heart{
+    animation: heartBeat 1s ease 0s infinite alternate;
+}
+
+@keyframes heartBeat{
+    0%{
+        font-size: 1em;
+    }
+    20%{
+        font-size: 1.2em;
+    }
+    50%{
+        font-size: 1em;
+    }
+    100%{
+        font-size: 1.2em;
+        
+    }
+}
