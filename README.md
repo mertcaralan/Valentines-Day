@@ -27,7 +27,6 @@ Celebrate Valentine's Day with an interactive heart animation and colorful effec
 ## Screenshots
 _Add your screenshots here to showcase the application._
 
-## License
-This project is licensed under the [MIT License](LICENSE).
+--
 
 Enjoy spreading love with **Valentines-Day**! 💕
