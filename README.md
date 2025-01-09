@@ -2,11 +2,7 @@
 
 Celebrate Valentine's Day with an interactive heart animation and colorful effects! This project is a fun and responsive web application.
 
----
-
 https://github.com/user-attachments/assets/64d95b5b-4424-4839-a0e6-ad0b4e222d1f
-
----
 
 ## Features
 - **Interactive Heart**: Grows on click.
