@@ -1,20 +1,38 @@
-const heart= document.getElementById("heart");
+$(function () {
+    const heart = $("#heart");
 
-const playBtn= document.getElementById("play");
-const pauseBtn= document.getElementById("pause");
-const changeBtn=document.getElementById("change");
+    // Pause or Play Animation
+    $("#pause").on("click", function () {
+        if (heart.css("animation-play-state") === "running") {
+            heart.css("animation-play-state", "paused");
+            $(this).text("PLAY");
+        } else {
+            heart.css("animation-play-state", "running");
+            $(this).text("PAUSE");
+        }
+    });
 
-const changeBackground = () => {
-    const colors = [ "#ffc2ff", "#E4B7E5", "#672692","#63458A","#1E0B1E","#EEE4F1","#FFCAD4","#F4ACB7","#D8E2DC"
-                    ,"#9D8189","#E5F9E0","#B2FFA8","#86E7B8","#6B6D76","#8A3033","#823329","#FFEF9F","#A61C3C","#F6BD60","#B8D4E3"
-                    ,"#8A8E91","#855A5C","#66101F","#B8D4E3","#EEFFDB"
-    ];
-    const num = Math.floor(Math.random() * colors.length);
-    document.body.style.background = `${colors[num]}`;
-}
+    // Change Background and Text Colors
+    $("#change").on("click", function () {
+        let randomR = Math.floor(Math.random() * 256);
+        let randomG = Math.floor(Math.random() * 256);
+        let randomB = Math.floor(Math.random() * 256);
 
-playBtn.addEventListener('click',() => heart.style.animationPlayState= "running");
-pauseBtn.addEventListener('click',() => heart.style.animationPlayState= "paused");
+        // Ensure text color is a contrasting value
+        let textR = Math.max(0, randomR - 128);
+        let textG = Math.max(0, randomG - 128);
+        let textB = Math.max(0, randomB - 128);
 
-changeBtn.addEventListener('click', changeBackground);
+        $("body").css("background", `rgb(${randomR}, ${randomG}, ${randomB})`);
+        $("body").css("color", `rgb(${textR}, ${textG}, ${textB})`);
+    });
 
+    // Increase Font Size Dynamically on Each Click
+    heart.on("click", function () {
+        let currentSize = parseInt($(this).css("font-size")); // Mevcut yazı boyutunu al
+        let newSize = currentSize + 20; // Her tıklamada 2px artır
+        if(currentSize < 300){
+            $("body").css("font-size", `${newSize}px`); // Yeni boyutu uygula   
+        }
+    });
+});
