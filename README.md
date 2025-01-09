@@ -1,16 +1,22 @@
 # Valentines-Day 💖
 
-Celebrate Valentine's Day with an interactive heart animation and colorful effects! This project uses HTML, CSS, and JavaScript to create a fun and responsive experience.
+Celebrate Valentine's Day with an interactive heart animation and colorful effects! This project is a fun and responsive web application.
 
 ## Features
 - **Interactive Heart**: Grows on click.
 - **Random Backgrounds**: Vibrant colors with one button click.
 - **Pause & Play**: Toggle the heart's animation.
 
+## Technologies Used
+- **HTML5**: For the structure of the application.
+- **CSS3**: For styling and animations.
+- **JavaScript (ES6)**: For interactivity and dynamic content.
+- **jQuery**: Simplified DOM manipulation and event handling.
+
 ## Project Structure
 - `heart.jpg`: The heart image.
 - `index.html`: Main HTML file.
-- `index.js`: JavaScript for interactivity.
+- `index.js`: JavaScript (with jQuery) for interactivity.
 - `style.css`: Styling and animations.
 
 ## How to Run
@@ -18,7 +24,10 @@ Celebrate Valentine's Day with an interactive heart animation and colorful effec
 2. Navigate to the project folder: `cd Valentines-Day`
 3. Open `index.html` in your browser.
 
+## Screenshots
+_Add your screenshots here to showcase the application._
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
-Happy Valentine's Day! 💕
+Enjoy spreading love with **Valentines-Day**! 💕
