@@ -26,7 +26,7 @@ Celebrate Valentine's Day with an interactive heart animation and colorful effec
 
 ---
 
-https://github.com/user-attachments/assets/7230b9e6-4577-48b5-959d-b70d7873fe9b
+https://github.com/user-attachments/assets/64d95b5b-4424-4839-a0e6-ad0b4e222d1f
 
 ---
 
