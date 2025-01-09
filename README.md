@@ -2,6 +2,12 @@
 
 Celebrate Valentine's Day with an interactive heart animation and colorful effects! This project is a fun and responsive web application.
 
+---
+
+https://github.com/user-attachments/assets/64d95b5b-4424-4839-a0e6-ad0b4e222d1f
+
+---
+
 ## Features
 - **Interactive Heart**: Grows on click.
 - **Random Backgrounds**: Vibrant colors with one button click.
@@ -23,11 +29,5 @@ Celebrate Valentine's Day with an interactive heart animation and colorful effec
 1. Clone the repository: `git clone https://github.com/your-username/Valentines-Day.git`
 2. Navigate to the project folder: `cd Valentines-Day`
 3. Open `index.html` in your browser.
-
----
-
-https://github.com/user-attachments/assets/64d95b5b-4424-4839-a0e6-ad0b4e222d1f
-
----
 
 Enjoy spreading love with **Valentines-Day**! 💕
