@@ -24,8 +24,9 @@ Celebrate Valentine's Day with an interactive heart animation and colorful effec
 2. Navigate to the project folder: `cd Valentines-Day`
 3. Open `index.html` in your browser.
 
-## Screenshots
-_Add your screenshots here to showcase the application._
+---
+
+https://github.com/user-attachments/assets/7230b9e6-4577-48b5-959d-b70d7873fe9b
 
 ---
 
